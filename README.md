@@ -45,4 +45,12 @@ module.exports = new GraphQLSchema({
     query: RootQuery
 })
 ```
+Added json-server
+
+```npm run json:server```
+
+with `package.json` file change `"json:server": "json-server --watch db.json"`
+
+Now graphQL starts to use json-server data.
+
 
